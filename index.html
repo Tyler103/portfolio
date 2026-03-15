@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tyler Ton — M.S. Computer Science student at Florida Tech. Software developer specializing in AI agents, embedded systems, and full-stack platforms.">
+  <meta name="author" content="Tyler Ton">
+  <meta property="og:title" content="Tyler Ton | Portfolio">
+  <meta property="og:description" content="M.S. CS student · Software Developer · Melbourne, FL">
+  <meta property="og:type" content="website">
+  <title>Tyler Ton | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="nav" class="nav">
+    <div class="nav__inner container">
+      <a class="nav__logo" href="#hero">TT</a>
+      <ul class="nav__links">
+        <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+        <li class="nav__item"><a class="nav__link" href="#experience">Experience</a></li>
+        <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+        <li class="nav__item"><a class="nav__link" href="#research">Research</a></li>
+      </ul>
+      <a class="nav__cta btn btn--outline" href="#contact">Contact</a>
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" aria-hidden="true">
+      <ul class="nav__mobile-links">
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#about">About</a></li>
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#skills">Skills</a></li>
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#experience">Experience</a></li>
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#projects">Projects</a></li>
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#research">Research</a></li>
+        <li class="nav__mobile-item"><a class="nav__mobile-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero__bg-grid"></div>
+    <div class="hero__particle-canvas"></div>
+    <div class="hero__content container">
+      <p class="hero__eyebrow">M.S. Computer Science · Florida Tech</p>
+      <h1 class="hero__name">Tyler Ton</h1>
+      <p class="hero__tagline">
+        <span class="hero__typed"></span>
+        <span class="hero__cursor">|</span>
+      </p>
+      <p class="hero__location">
+        <span class="hero__location-dot"></span>
+        Melbourne, FL
+      </p>
+      <div class="hero__cta-group">
+        <a class="btn btn--primary" href="#projects">View My Work</a>
+        <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+      </div>
+      <div class="hero__scroll-hint">
+        <span class="hero__scroll-arrow">↓</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about__inner container">
+      <div class="about__text reveal">
+        <span class="section-label">// about</span>
+        <h2 class="section-heading">About Me</h2>
+        <p class="about__bio">I'm a Computer Science M.S. student at Florida Institute of Technology with a passion for building intelligent systems, embedded hardware, and full-stack platforms. From acoustic signal processing research to AI agent pipelines, I thrive at the intersection of software and real-world impact.</p>
+        <div class="about__meta">
+          <div class="about__meta-item">
+            <span class="about__meta-icon">📍</span>
+            <span class="about__meta-value">Melbourne, FL 32901</span>
+          </div>
+          <div class="about__meta-item">
+            <span class="about__meta-icon">🎓</span>
+            <span class="about__meta-value">Florida Institute of Technology</span>
+          </div>
+          <div class="about__meta-item">
+            <span class="about__meta-icon">📧</span>
+            <span class="about__meta-value">tton2021@my.fit.edu</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__stats reveal">
+        <div class="stat-card reveal">
+          <span class="stat-card__number" data-numeric="false">3+</span>
+          <span class="stat-card__label">Years Experience</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-card__number" data-numeric="false">8+</span>
+          <span class="stat-card__label">Projects Built</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-card__number" data-numeric="false">14+</span>
+          <span class="stat-card__label">Technologies</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="skills__inner container">
+      <span class="section-label">// skills</span>
+      <h2 class="section-heading">Skills &amp; Tools</h2>
+      <div class="skills__grid reveal">
+        <div class="skill-category">
+          <h3 class="skill-category__title">Languages</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">C++</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="90"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">C</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Java</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Python</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="88"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">JavaScript</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Go</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="70"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">SQL</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="75"></div></div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">Frontend &amp; Mobile</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">HTML/CSS</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Flutter</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="72"></div></div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">AI / ML</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">TensorFlow</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="78"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">PyTorch</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="76"></div></div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category__title">Dev Tools</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">Docker</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">XCode</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="70"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Jira</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="82"></div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="experience__inner container">
+      <span class="section-label">// experience</span>
+      <h2 class="section-heading">Experience</h2>
+      <div class="timeline">
+
+        <article class="timeline__item reveal" data-index="0">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Junior Software Developer</h3>
+                <span class="timeline__company">Zel Technologies</span>
+              </div>
+              <span class="timeline__period">May 2025 – Present</span>
+            </div>
+            <p class="timeline__description">Developed a CNN-based AI model to classify bullet caliber from acoustic data, achieving 95%+ accuracy across 11 caliber classes. Packaged model as a safety feature in an existing commercial product.</p>
+            <ul class="timeline__tags">
+              <li class="timeline__tag">Python</li>
+              <li class="timeline__tag">TensorFlow</li>
+              <li class="timeline__tag">CNN</li>
+              <li class="timeline__tag">Docker</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item reveal" data-index="1">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Web Application Developer Intern</h3>
+                <span class="timeline__company">Zel Technologies</span>
+              </div>
+              <span class="timeline__period">May 2024 – April 2025</span>
+            </div>
+            <p class="timeline__description">Expanded full-stack Django web applications in a team environment. Implemented iOS and Android apps using Flutter/Dart, containerized with Docker and PostgreSQL, and integrated OpenStreetMaps for navigation.</p>
+            <ul class="timeline__tags">
+              <li class="timeline__tag">Django</li>
+              <li class="timeline__tag">Flutter</li>
+              <li class="timeline__tag">Docker</li>
+              <li class="timeline__tag">PostgreSQL</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item reveal" data-index="2">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Web Developer</h3>
+                <span class="timeline__company">AIChE</span>
+              </div>
+              <span class="timeline__period">March 2024 – April 2024</span>
+            </div>
+            <p class="timeline__description">UX-focused development for the local Florida Tech AIChE division website. Prioritized mobile/desktop responsiveness, security best practices, and deployed on AWS EC2.</p>
+            <ul class="timeline__tags">
+              <li class="timeline__tag">HTML/CSS</li>
+              <li class="timeline__tag">JavaScript</li>
+              <li class="timeline__tag">AWS EC2</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item reveal" data-index="3">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__body">
+            <div class="timeline__header">
+              <div class="timeline__title-group">
+                <h3 class="timeline__role">Software Research Intern</h3>
+                <span class="timeline__company">HEP Research Lab, Florida Tech</span>
+              </div>
+              <span class="timeline__period">Jan 2024 – March 2024</span>
+            </div>
+            <p class="timeline__description">Collaborated on particle simulation projects for collision detection. Used Python and C within the EIC Shell environment and PYTHIA to detect high-energy particle interactions.</p>
+            <ul class="timeline__tags">
+              <li class="timeline__tag">Python</li>
+              <li class="timeline__tag">C</li>
+              <li class="timeline__tag">PYTHIA</li>
+              <li class="timeline__tag">Research</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="projects__inner container">
+      <span class="section-label">// projects</span>
+      <h2 class="section-heading">Projects</h2>
+      <div class="projects__filter">
+        <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="embedded">Embedded</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+      </div>
+      <div class="projects__grid">
+
+        <article class="project-card reveal" data-category="embedded">
+          <div class="project-card__top">
+            <div class="project-card__icon">📡</div>
+            <div class="project-card__links">
+              <a class="project-card__link" href="#" target="_blank" aria-label="GitHub">⟶</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Embedded Ultrasonic Parking Assistant</h3>
+            <p class="project-card__description">Arduino-based real-time distance sensing system using HC-SR04 ultrasonic module. Firmware written in C/C++ with time-of-flight distance measurement and adaptive LED proximity alerts.</p>
+            <ul class="project-card__tags">
+              <li class="tag">C/C++</li>
+              <li class="tag">Arduino</li>
+              <li class="tag">Embedded Systems</li>
+              <li class="tag">HC-SR04</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="ai">
+          <div class="project-card__top">
+            <div class="project-card__icon">🤖</div>
+            <div class="project-card__links">
+              <a class="project-card__link" href="#" target="_blank" aria-label="GitHub">⟶</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Google ADK Java Code Generation Agents</h3>
+            <p class="project-card__description">Autonomous Java code generation pipeline using Google's Agent Development Kit. Integrated JUnit5 testing with Gradle, building a self-correcting feedback loop that converts test failures into targeted code improvements.</p>
+            <ul class="project-card__tags">
+              <li class="tag">Python</li>
+              <li class="tag">Google ADK</li>
+              <li class="tag">Java</li>
+              <li class="tag">JUnit5</li>
+              <li class="tag">AI Agents</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="fullstack">
+          <div class="project-card__top">
+            <div class="project-card__icon">🏆</div>
+            <div class="project-card__links">
+              <a class="project-card__link" href="#" target="_blank" aria-label="GitHub">⟶</a>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">PocketSports Full-Stack Coaching Platform</h3>
+            <p class="project-card__description">Cross-sport coaching app built with the MERN stack. Features role-based authentication for coaches, players, parents and owners, real-time WebSocket drill design, and live goal creation.</p>
+            <ul class="project-card__tags">
+              <li class="tag">Flutter</li>
+              <li class="tag">MERN</li>
+              <li class="tag">WebSockets</li>
+              <li class="tag">Full-Stack</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section id="research" class="research">
+    <div class="research__inner container">
+      <span class="section-label">// research</span>
+      <h2 class="section-heading">Research</h2>
+      <div class="research__card reveal">
+        <div class="research__card-accent-bar"></div>
+        <div class="research__card-body">
+          <div class="research__card-header">
+            <h3 class="research__title">Indoor Gunshot Localization &amp; Sound Propagation</h3>
+            <span class="research__status badge badge--in-progress">In Progress</span>
+          </div>
+          <p class="research__institution">Florida Institute of Technology</p>
+          <p class="research__timeline">Expected: August 2026</p>
+          <p class="research__description">M.S. thesis investigating acoustic localization of gunshot events in indoor environments. Combines wave-based sound propagation modeling with signal processing to determine source position and directivity within constrained room geometries using the Image Source Method (ISM).</p>
+          <div class="research__topics">
+            <span class="research__topic">Acoustic Localization</span>
+            <span class="research__topic">Sound Propagation</span>
+            <span class="research__topic">Signal Processing</span>
+            <span class="research__topic">Wave Modeling</span>
+          </div>
+          <div class="research__tools">
+            <span class="section-label section-label--sm">Tools &amp; Methods</span>
+            <div class="research__tool-list">
+              <span class="tag">Python</span>
+              <span class="tag">Pyroomacoustics</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">ISM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact__inner container">
+      <div class="contact__text reveal">
+        <span class="section-label">// contact</span>
+        <h2 class="section-heading">Get in Touch</h2>
+        <p class="contact__subtitle">I'm always open to new opportunities, collaborations, or just a good conversation about tech. Reach out!</p>
+        <div class="contact__links">
+          <a class="contact__link" href="mailto:tton2021@my.fit.edu">
+            <span class="contact__link-icon">✉</span>
+            <span class="contact__link-label">tton2021@my.fit.edu</span>
+          </a>
+          <a class="contact__link" href="tel:+15037442723">
+            <span class="contact__link-icon">📞</span>
+            <span class="contact__link-label">(503) 744-2723</span>
+          </a>
+        </div>
+      </div>
+      <div class="contact__form-wrap reveal">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="contact-name">Name</label>
+            <input class="form-input" id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your name">
+            <span class="form-error" id="error-name" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-email">Email</label>
+            <input class="form-input" id="contact-email" name="email" type="email" autocomplete="email" placeholder="your@email.com">
+            <span class="form-error" id="error-email" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contact-message">Message</label>
+            <textarea class="form-textarea" id="contact-message" name="message" rows="5" placeholder="What's on your mind?"></textarea>
+            <span class="form-error" id="error-message" aria-live="polite"></span>
+          </div>
+          <button class="btn btn--primary btn--full" type="submit" id="contact-submit">
+            <span class="btn__label">Send Message</span>
+            <span class="btn__spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+        <div class="contact-form__success" id="contact-success" hidden>
+          <p>Thanks! I'll get back to you soon. 🎉</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="footer__inner container">
+      <p class="footer__copy">© 2026 Tyler Ton</p>
+      <nav class="footer__nav">
+        <a class="footer__nav-link" href="#about">About</a>
+        <a class="footer__nav-link" href="#projects">Projects</a>
+        <a class="footer__nav-link" href="#contact">Contact</a>
+      </nav>
+      <p class="footer__built">Built with vanilla HTML, CSS &amp; JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
