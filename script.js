@@ -10,15 +10,6 @@ function init() {
   initProjectFilter();
   initContactForm();
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!prefersReducedMotion) {
-    initTypingEffect();
-    initParticleCanvas();
-  } else {
-    // Set static text if reduced motion
-    const typed = document.querySelector('.hero__typed');
-    if (typed) typed.textContent = 'Building intelligent systems.';
-  }
 }
 
 // ─── Navigation ───────────────────────────────────────────────────────────────

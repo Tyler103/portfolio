@@ -48,15 +48,10 @@
 
   <!-- Hero Section -->
   <section id="hero" class="hero">
-    <div class="hero__bg-grid"></div>
-    <div class="hero__particle-canvas"></div>
     <div class="hero__content container">
       <p class="hero__eyebrow">M.S. Computer Science · Florida Tech</p>
       <h1 class="hero__name">Tyler Ton</h1>
-      <p class="hero__tagline">
-        <span class="hero__typed"></span>
-        <span class="hero__cursor">|</span>
-      </p>
+      <p class="hero__tagline">CS grad student at Florida Tech. I build things — acoustic localization systems for my thesis, AI pipelines at work, and whatever side project has my attention this month.</p>
       <p class="hero__location">
         <span class="hero__location-dot"></span>
         Melbourne, FL
@@ -65,9 +60,6 @@
         <a class="btn btn--primary" href="#projects">View My Work</a>
         <a class="btn btn--ghost" href="#contact">Get in Touch</a>
       </div>
-      <div class="hero__scroll-hint">
-        <span class="hero__scroll-arrow">↓</span>
-      </div>
     </div>
   </section>
 
@@ -75,9 +67,9 @@
   <section id="about" class="about">
     <div class="about__inner container">
       <div class="about__text reveal">
-        <span class="section-label">// about</span>
+        <span class="section-label">about</span>
         <h2 class="section-heading">About Me</h2>
-        <p class="about__bio">I'm a Computer Science M.S. student at Florida Institute of Technology with a passion for building intelligent systems, embedded hardware, and full-stack platforms. From acoustic signal processing research to AI agent pipelines, I thrive at the intersection of software and real-world impact.</p>
+        <p class="about__bio">CS grad student at Florida Tech working on my M.S. thesis in acoustic gunshot localization. During the day I build AI models and full-stack apps at Zel Technologies. I like problems that sit between hardware and software — the kind where you can't just unit test your way to an answer.</p>
         <div class="about__meta">
           <div class="about__meta-item">
             <span class="about__meta-icon">📍</span>
@@ -113,84 +105,42 @@
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <div class="skills__inner container">
-      <span class="section-label">// skills</span>
+      <span class="section-label">skills</span>
       <h2 class="section-heading">Skills &amp; Tools</h2>
-      <div class="skills__grid reveal">
-        <div class="skill-category">
-          <h3 class="skill-category__title">Languages</h3>
-          <ul class="skill-list">
-            <li class="skill-item">
-              <span class="skill-item__name">C++</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="90"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">C</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">Java</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">Python</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="88"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">JavaScript</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">Go</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="70"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">SQL</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="75"></div></div>
-            </li>
-          </ul>
+      <div class="skills__tag-grid reveal">
+        <div class="skill-group">
+          <span class="skill-group__label">Languages</span>
+          <div class="skill-group__pills">
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Go</span>
+            <span class="skill-pill">SQL</span>
+          </div>
         </div>
-        <div class="skill-category">
-          <h3 class="skill-category__title">Frontend &amp; Mobile</h3>
-          <ul class="skill-list">
-            <li class="skill-item">
-              <span class="skill-item__name">HTML/CSS</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">Flutter</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="72"></div></div>
-            </li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-group__label">Frontend &amp; Mobile</span>
+          <div class="skill-group__pills">
+            <span class="skill-pill">HTML/CSS</span>
+            <span class="skill-pill">Flutter</span>
+          </div>
         </div>
-        <div class="skill-category">
-          <h3 class="skill-category__title">AI / ML</h3>
-          <ul class="skill-list">
-            <li class="skill-item">
-              <span class="skill-item__name">TensorFlow</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="78"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">PyTorch</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="76"></div></div>
-            </li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-group__label">AI / ML</span>
+          <div class="skill-group__pills">
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">PyTorch</span>
+          </div>
         </div>
-        <div class="skill-category">
-          <h3 class="skill-category__title">Dev Tools</h3>
-          <ul class="skill-list">
-            <li class="skill-item">
-              <span class="skill-item__name">Docker</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">XCode</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="70"></div></div>
-            </li>
-            <li class="skill-item">
-              <span class="skill-item__name">Jira</span>
-              <div class="skill-item__bar"><div class="skill-item__fill" data-width="82"></div></div>
-            </li>
-          </ul>
+        <div class="skill-group">
+          <span class="skill-group__label">Dev Tools</span>
+          <div class="skill-group__pills">
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">XCode</span>
+            <span class="skill-pill">Jira</span>
+          </div>
         </div>
       </div>
     </div>
@@ -199,7 +149,7 @@
   <!-- Experience Section -->
   <section id="experience" class="experience">
     <div class="experience__inner container">
-      <span class="section-label">// experience</span>
+      <span class="section-label">experience</span>
       <h2 class="section-heading">Experience</h2>
       <div class="timeline">
 
@@ -297,7 +247,7 @@
   <!-- Projects Section -->
   <section id="projects" class="projects">
     <div class="projects__inner container">
-      <span class="section-label">// projects</span>
+      <span class="section-label">projects</span>
       <h2 class="section-heading">Projects</h2>
       <div class="projects__filter">
         <button class="filter-btn filter-btn--active" data-filter="all">All</button>
@@ -372,7 +322,7 @@
   <!-- Research Section -->
   <section id="research" class="research">
     <div class="research__inner container">
-      <span class="section-label">// research</span>
+      <span class="section-label">research</span>
       <h2 class="section-heading">Research</h2>
       <div class="research__card reveal">
         <div class="research__card-accent-bar"></div>
@@ -409,7 +359,7 @@
   <section id="contact" class="contact">
     <div class="contact__inner container">
       <div class="contact__text reveal">
-        <span class="section-label">// contact</span>
+        <span class="section-label">contact</span>
         <h2 class="section-heading">Get in Touch</h2>
         <p class="contact__subtitle">I'm always open to new opportunities, collaborations, or just a good conversation about tech. Reach out!</p>
         <div class="contact__links">
